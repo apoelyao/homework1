@@ -3,6 +3,8 @@ from scipy.stats import norm
 
 mu = 0
 sigma0 = 1
+
+
 def d1(S,K,r,sigma,T):
     return (np.log(S/K) + (r + (sigma* sigma) / 2)* T)/(sigma* np.sqrt(T))
 
